@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>  
+    
+  <div class="double"> 
+  
+    <h2>My To Do List</h2>
+
+      <ul id="myUL">
+          <!-- <li>Get started on this assignment</li>
+          <li>No seriously get started on this assignment</li>
+          <li>Finish this assignment</li>
+          <li>For real finish the assignment</li>
+          <li>Cry</li>
+          <li>Weeping, wailing, and gnashing of teeth</li> -->
+        </ul>
+
+        <div id="filters">
+          <button id="tasks_left"></button>
+          <button id="all" onclick="showAll()">All</button>
+          <button id="active" onclick="showActive()">Active</button>
+          <button id="complete" onclick="showComplete()">Complete</button>
+          
+
+        </div>
+
+        <div id="myDIV" class="header">
+          <input type="text" id="myInput" placeholder="Add ToDo Item">
+          <span onclick="newElement()" class="addBtn">+</span>
+        </div>
+
+      </div>
+  <script src="java.js"></script>  
+    
+</body>
+
+</html>
